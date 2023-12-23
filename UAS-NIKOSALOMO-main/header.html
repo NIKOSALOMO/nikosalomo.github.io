@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet" />
+    <style>
+      a {
+        font-family: "Tilt Neon", sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+        padding: 1.2rem;
+        display: block;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <dialog>
+      <p> Hallo, Welcome My Website
+        Klik untuk menutupnya</p>
+      <button id="close">Close Dialog</button>
+    </dialog>
+    <button id="show">klik untuk menampilkan dialog box</button>
+
+    <script>
+      var dialog = document.querySelector("dialog");
+      document.querySelector("#show").onclick = function () {
+        dialog.show();
+      };
+      document.querySelector("#close").onclick = function () {
+        dialog.close();
+      };
+    </script>
+    <div>
+      <a href="">NIKO SALOMO
+                 211011401004
+      </a>
+    </div>
+  </body>
+</html>
